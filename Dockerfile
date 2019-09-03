@@ -18,8 +18,8 @@ RUN apt-get update && apt-get install -y curl apt-transport-https wget && \
     apt-get update && apt-get install -y yarn
 
 # 作業ディレクトリの設定
-RUN mkdir /sampleApp
-ENV APP_ROOT /sampleApp
+RUN mkdir /sampleapp
+ENV APP_ROOT /sampleapp
 WORKDIR $APP_ROOT
 
 # gemfileを追加する
