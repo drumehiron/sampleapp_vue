@@ -56,3 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Vue.js導入のためのgem
 gem "webpacker", github: "rails/webpacker" 
+
+# haml の導入
+gem 'haml-rails'
